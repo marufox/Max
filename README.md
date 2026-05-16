@@ -1,8 +1,9 @@
-# MAX COOKIES
-🔥 Instagram Cookie Extractor Bot
+# MAX COOKIES 🔥
+
+Instagram Cookie Extractor Bot
 
 ## 👑 Owner
-MARUF
+**MAX FUTURE**
 
 ## 🚀 Features
 - Ultra Fast (100 IDs in 30 seconds)
@@ -12,7 +13,12 @@ MARUF
 
 ## 📥 Installation (Termux)
 
+### First Time:
 ```bash
 pkg update && pkg upgrade -y
 pkg install python git -y
 pip install pyTelegramBotAPI instaloader pyotp
+rm -rf Max
+git clone https://github.com/marufox/Max
+cd Max
+python max.py
